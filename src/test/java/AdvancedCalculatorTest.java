@@ -9,7 +9,7 @@ class AdvancedCalculatorTest {
         assertEquals(8.0, calculator.power(2, 3), 0.01);
     }
     @Test
-    void testSqurt() {
+    void testSqrt() {
         AdvancedCalculator calculator = new AdvancedCalculator();
         assertEquals(2.0, calculator.sqrt(4), 0.01);
     }
